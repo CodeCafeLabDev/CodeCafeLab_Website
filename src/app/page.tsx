@@ -17,9 +17,9 @@ export default function HomePage() {
   const [isQuoteSheetOpen, setIsQuoteSheetOpen] = useState(false); 
 
   const heroTexts = [
-    "Brewed Software with AI Precision",
-    "Innovative Solutions for a Digital World",
-    "Your Partner in Tech Excellence",
+    "Connecting the Dots, Building the Future",
+    "From Vision to Execution, The Cubic Way",
+    "Modular Tech. Maximum Impact.",
   ];
 
   const featuredServices = SERVICES_DATA.slice(0, 5);
@@ -50,7 +50,10 @@ export default function HomePage() {
               <AnimatedHeroText texts={heroTexts} />
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Cubic Dot blends innovation, AI, and creativity to deliver cutting-edge software solutions tailored for your success.
+              Cubic Dot blends modular, scalable, and intelligent software systems tailored for tomorrow’s digital needs
+              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
+              Innovating the Future – One Smart Cube at a Time.
+                </p>
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button
@@ -75,7 +78,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Our Expertise</h2>
             <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-              We offer a comprehensive suite of services to transform your ideas into reality, leveraging the latest technologies and agile methodologies for exceptional results.
+            From startups to enterprises, Cubic Dot offers tailored digital solutions using cutting-edge technologies and agile processes to accelerate growth and innovation.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -104,7 +107,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="flex-grow flex flex-col items-center justify-center p-2">
                 <p className="text-muted-foreground mb-4">
-                  Dive deeper into our comprehensive range of solutions.
+                Discover the full spectrum of Cubic Dot's modular services designed to move your business forward.
                 </p>
               </CardContent>
               <CardFooter className="p-2 w-full">
@@ -172,7 +175,7 @@ export default function HomePage() {
                   <Brain className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h2 className="text-3xl font-bold">Cubic Dot Tech Stack</h2>
                   <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-                      We leverage a modern and versatile technology stack to build robust, scalable, and innovative solutions.
+                  We utilize a future-ready, modular tech stack to craft high-performance digital systems that scale with your vision.
                   </p>
               </div>
               <div className="space-y-6">
@@ -320,9 +323,9 @@ export default function HomePage() {
           </video>
           <div className="relative z-10">
             <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h2 className="text-3xl font-bold mb-4">Ready to Brew Your Next Big Idea?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Connect to Your Next Big Idea?</h2>
             <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-8">
-              Let&apos;s collaborate to build innovative solutions that drive your business forward.
+              Let&apos;s collaborate to transform ideas into impactful digital experiences that accelerate your growth.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="/contact">Start a Project <ArrowRight className="ml-2 h-5 w-5" /></Link>

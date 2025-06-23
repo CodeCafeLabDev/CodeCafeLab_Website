@@ -15,10 +15,10 @@ const teamMembers = [
 ];
 
 const values = [
-  { title: 'Innovation', icon: Lightbulb, description: 'We constantly seek new ways to solve problems and push boundaries.' },
-  { title: 'Collaboration', icon: Users, description: 'Teamwork and open communication are at the heart of our success.' },
-  { title: 'Integrity', icon: Heart, description: 'We operate with honesty and transparency in all our interactions.' },
-  { title: 'Excellence', icon: Target, description: 'We are committed to delivering high-quality solutions and services.' },
+ { title: 'Intelligent Engineering', icon: Lightbulb, description: 'We constantly seek new ways to solve problems and push boundaries.' },
+  { title: 'Modular, Maintainable Code', icon: Users, description: 'Teamwork and open communication are at the heart of our success.' },
+  { title: 'Global Mindset', icon: Heart, description: 'We operate with honesty and transparency in all our interactions.' },
+  { title: 'Agile, Iterative Process', icon: Target, description: 'We are committed to delivering high-quality solutions and services.' },
 ];
 
 export default function CompanyPage() {
@@ -27,7 +27,7 @@ export default function CompanyPage() {
       <section className="text-center">
         <h1 className="text-4xl font-bold mb-4">About Cubic Dot</h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-          We are a passionate team of innovators, developers, and strategists dedicated to crafting exceptional software solutions that drive progress and create value.
+ Every line of code we write is part of a bigger, smarter structure. We Think in Cubes, Connect with Dots.
         </p>
       </section>
 
@@ -39,9 +39,7 @@ export default function CompanyPage() {
           </CardHeader>
           <CardContent className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <p className="text-muted-foreground mb-4">
-                Founded on the principle of delivering precise and innovative digital solutions, Cubic Dot embarked on its journey to make a mark in the tech world.
-              </p>
+ <p className="text-muted-foreground mb-4">Cubic Dot is not just a software development company — it’s a philosophy. The “Cubic” in our name stands for structure, strength, and scalable systems. The “Dot” symbolizes detail, logic, and connection. Together, we build robust software that connects your business to success.</p>
               <p className="text-muted-foreground">
                 From humble beginnings, we've grown into a dynamic company, tackling complex challenges and delivering impactful solutions for clients across various industries. Our passion for AI and innovation continues to fuel our growth and inspire our work.
               </p>

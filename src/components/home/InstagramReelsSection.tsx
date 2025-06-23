@@ -106,7 +106,7 @@ export default function InstagramReelsSection() {
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
             <Instagram className="h-10 w-10 text-primary" />
-            Hey ! See, Whats brewing in Cubic Dot
+            Hey ! See, Whats Percolating in Cubic Dot
           </h2>
           <p className="text-muted-foreground">Catch up with our latest tips, demos, and behind-the-scenes moments.</p>
         </div>

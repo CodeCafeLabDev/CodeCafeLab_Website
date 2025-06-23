@@ -49,7 +49,8 @@ export default function Footer() {
               />
             </Link>
             <p className="text-sm text-muted-foreground max-w-sm">
-              Brewing innovative software solutions with AI precision. Let&apos;s build something amazing together.
+            Designing transformative software experiences powered by AI — Let&apos;s shape the future, one dot at a time.
+            “Smart Dots. Scalable Cubes. Real Software.”
             </p>
             <div className="flex items-center gap-4 pt-2">
               {socialLinks.map((social) => (

@@ -79,9 +79,9 @@ export default function FeaturedVideosSection() {
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
             <Film className="h-10 w-10 text-primary" />
-            Let's See Whats Brewing In Cubic Dot
+            Let's See Whats Percolating In Cubic Dot
           </h2>
-          <p className="text-muted-foreground">Quick bites & in-depth looks at what we do.</p>
+          <p className="text-muted-foreground">Fresh insights and deep dives into how Cubic Dot creates impact.</p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
@@ -142,7 +142,7 @@ export default function FeaturedVideosSection() {
           {/* Right Column: Main YouTube Embed */}
           <div className="space-y-6">
              <h3 className="font-brittany text-4xl text-primary text-center mt-4 mb-4">
-                Let's See, whats brewing in our Cubic Dot
+                Let's See, whats Percolating in our Cubic Dot
             </h3>
             <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
               <iframe
