@@ -8,7 +8,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with CodeCafe Lab. We are here to answer your questions and discuss your projects.',
+ description: 'Get in touch with Cubic Dot. We are here to answer your questions and discuss your projects.',
 };
 
 export default function ContactPage() {
@@ -63,8 +63,8 @@ export default function ContactPage() {
                     <CardTitle className="text-xl flex items-center gap-2"><MapPin className="h-6 w-6 text-primary" />Our Office</CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground space-y-1">
-                    <p className="font-semibold text-foreground">CodeCafe Lab Headquarters</p>
-                    <p>Manglam Grand City, Jaipur, Rajasthan, 302026</p>
+                    <p className="font-semibold text-foreground">Cubic Dot Headquarters</p>
+                    <p>Jaipur, Rajasthan, 302026</p>
                     <p>India</p>
                 </CardContent>
             </Card>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                 <CardHeader>
                     <CardTitle className="text-xl flex items-center gap-2"><Phone className="h-6 w-6 text-primary" />Call Us</CardTitle>
                 </CardHeader>
-                <CardContent className="text-muted-foreground space-y-1">
+                <CardContent className="text-muted-foreground space-y-1"> // This is a comment
                     <p><strong>General Inquiries:</strong> <a href="tel:+917852010838" className="hover:text-primary">+91 7852010838</a></p>
                     <p><strong>Sales:</strong> <a href="tel:+917852010838" className="hover:text-primary">+91 7852010838</a></p>
                 </CardContent>
@@ -83,7 +83,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="text-muted-foreground space-y-1">
                     <p><strong>General:</strong> <a href="mailto:hello@codecafelab.in" className="hover:text-primary">hello@codecafelab.in</a></p>
-                    <p><strong>Support:</strong> <a href="mailto:support@codecafelab.in" className="hover:text-primary">support@codecafelab.in</a></p>
+                    <p><strong>Support:</strong> <a href="mailto:support@cubicdot.in" className="hover:text-primary">support@cubicdot.in</a></p>
                     <p><strong>Careers:</strong> <a href="mailto:career@codecafelab.in" className="hover:text-primary">career@codecafelab.in</a></p>
                 </CardContent>
             </Card>

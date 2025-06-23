@@ -8,8 +8,8 @@ import OpenPositionsSlider from '@/components/career/OpenPositionsSlider'; // Im
 import type { OpenPosition } from '@/types';
 
 export const metadata: Metadata = {
-  title: 'Careers at CodeCafe Lab',
-  description: 'Join our innovative team at CodeCafe Lab. Explore open positions, learn about our company culture, and apply today.',
+  title: 'Careers at Cubic Dot',
+  description: 'Join our innovative team at Cubic Dot. Explore open positions, learn about our company culture, and apply today.',
 };
 
 const openPositionsData: OpenPosition[] = [ // Renamed to avoid conflict if OpenPosition type is imported
@@ -21,7 +21,7 @@ const openPositionsData: OpenPosition[] = [ // Renamed to avoid conflict if Open
 ];
 
 const teamTestimonials = [
-  { name: 'Alex Chen', role: 'Software Engineer', quote: "CodeCafe Lab fosters a culture of learning and growth. I'm constantly challenged and supported by an amazing team.", avatarUrl: "https://placehold.co/80x80.png", dataAiHint:"person avatar" },
+  { name: 'Alex Chen', role: 'Software Engineer', quote: "Cubic Dot fosters a culture of learning and growth. I'm constantly challenged and supported by an amazing team.", avatarUrl: "https://placehold.co/80x80.png", dataAiHint:"person avatar" },
   { name: 'Maria Rodriguez', role: 'AI Researcher', quote: "Working on cutting-edge AI projects here is incredibly rewarding. The company truly values innovation.", avatarUrl: "https://placehold.co/80x80.png", dataAiHint:"person avatar" },
 ];
 
@@ -31,7 +31,7 @@ export default function CareerPage() {
       <section className="text-center">
         <h1 className="text-4xl font-bold mb-4">Join Our Team</h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-          At CodeCafe Lab, we're passionate about building the future of technology. If you're driven by innovation, creativity, and a desire to make an impact, we'd love to hear from you.
+          At Cubic Dot, we're passionate about building the future of technology. If you're driven by innovation, creativity, and a desire to make an impact, we'd love to hear from you.
         </p>
       </section>
 
@@ -48,7 +48,7 @@ export default function CareerPage() {
         </div>
         <Image 
             src="https://placehold.co/600x400/008d00/ffffff.png?text=Team+Collaboration" 
-            alt="CodeCafe Lab team collaborating" 
+            alt="Cubic Dot team collaborating" 
             width={600} 
             height={400} 
             className="rounded-lg object-cover shadow-lg"

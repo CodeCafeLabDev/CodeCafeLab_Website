@@ -1,4 +1,4 @@
-# **App Name**: CodeCafe Lab
+# **App Name**: Cubic Dot
 
 ## Core Features:
 

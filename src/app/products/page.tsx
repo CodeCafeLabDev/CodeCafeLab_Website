@@ -4,7 +4,7 @@ import { PRODUCTS_DATA } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Our Products',
-  description: 'Discover innovative in-house tools, SaaS, and platforms developed by CodeCafe Lab.',
+  description: 'Discover innovative in-house tools, SaaS, and platforms developed by Cubic Dot.',
 };
 
 export default function ProductsPage() {

@@ -15,7 +15,7 @@ import { Search } from 'lucide-react';
 
 // export const metadata: Metadata = {
 //   title: 'Blog',
-//   description: 'Read the latest articles and insights from CodeCafe Lab on AI, software development, and technology trends.',
+//   description: 'Read the latest articles and insights from Cubic Dot on AI, software development, and technology trends.',
 // };
 
 export default function BlogPage() {
@@ -40,7 +40,7 @@ export default function BlogPage() {
   return (
     <div className="space-y-12">
       <section className="text-center">
-        <h1 className="text-4xl font-bold mb-4">CodeCafe Lab Blog</h1>
+        <h1 className="text-4xl font-bold mb-4">Cubic Dot Blog</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           Stay updated with the latest news, insights, and tutorials on AI, software development, UI/UX, and more from our team of experts.
         </p>

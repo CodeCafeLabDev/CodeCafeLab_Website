@@ -55,7 +55,7 @@ export default function AIProductDiscoveryClient() {
             <Wand2 className="h-10 w-10 text-primary" />
             <div>
               <CardTitle className="text-3xl">Discover Our AI Solutions</CardTitle>
-              <CardDescription>Tell us about your interests or current AI trends, and we'll suggest relevant CodeCafe Lab products.</CardDescription>
+              <CardDescription>Tell us about your interests or current AI trends, and we'll suggest relevant Cubic Dot products.</CardDescription>
             </div>
           </div>
         </CardHeader>

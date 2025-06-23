@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'AI Innovations',
-  description: 'Explore CodeCafe Lab\'s cutting-edge AI innovations, GPT-based products, and automation bots. Try our AI Product Discovery tool.',
+  description: 'Explore Cubic Dot\'s cutting-edge AI innovations, GPT-based products, and automation bots. Try our AI Product Discovery tool.',
 };
 
 const aiFeatures = [
@@ -39,7 +39,7 @@ export default function AIPage() {
       <section className="text-center">
         <h1 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
           <BrainCircuit className="h-10 w-10 text-primary inline-block" />
-          AI at CodeCafe Lab
+          AI at Cubic Dot
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           We are at the forefront of AI innovation, developing intelligent solutions that redefine possibilities. Explore our AI capabilities and discover how we can help you leverage the power of artificial intelligence.

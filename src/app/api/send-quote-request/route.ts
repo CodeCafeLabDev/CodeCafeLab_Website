@@ -43,7 +43,7 @@ function generateHtmlEmail(data: QuoteFormData): string {
       <body style="${styles.body}">
         <div style="${styles.container}">
           <div style="${styles.header}">
-            <h1 style="${styles.headerTitle}">CodeCafe Lab - New Quote Request</h1>
+            <h1 style="${styles.headerTitle}">Cubic Dot - New Quote Request</h1>
           </div>
           
           <div style="${styles.section}">
@@ -70,8 +70,8 @@ function generateHtmlEmail(data: QuoteFormData): string {
           </div>
 
           <div style="${styles.footer}">
-            <p>This email was generated from a quote request on the CodeCafe Lab website.</p>
-            <p>&copy; ${new Date().getFullYear()} CodeCafe Lab. All rights reserved.</p>
+            <p>This email was generated from a quote request on the Cubic Dot website.</p>
+            <p>&copy; ${new Date().getFullYear()} Cubic Dot. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -109,7 +109,7 @@ export async function POST(req: NextRequest) {
     try {
       await transporter.verify(); // Verify connection configuration
       const info = await transporter.sendMail({
-        from: process.env.SMTP_FROM_ADDRESS || `"CodeCafe Lab Quotes" <noreply@yourdomain.com>`, // Sender address (ensure it's authorized)
+        from: process.env.SMTP_FROM_ADDRESS || `"Cubic Dot Quotes" <noreply@yourdomain.com>`, // Sender address (ensure it's authorized)
         to: recipientEmail, // List of receivers
         replyTo: formData.email, // Set reply-to to the user's email
         subject: emailSubject, // Subject line

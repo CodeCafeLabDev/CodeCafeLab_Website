@@ -2,7 +2,7 @@
 'use server';
 
 /**
- * @fileOverview AI-driven product discovery flow for showcasing CodeCafe Lab's AI capabilities.
+ * @fileOverview AI-driven product discovery flow for showcasing Cubic Dot's AI capabilities.
  *
  * This file defines a Genkit flow that dynamically selects and describes AI products based on user interests and current trends.
  * The flow uses an LLM to make these selections, providing a personalized and up-to-date view of the company's AI offerings.
@@ -42,11 +42,11 @@ const prompt = ai.definePrompt({
   name: 'aiProductDiscoveryPrompt',
   input: {schema: AIProductDiscoveryInputSchema},
   output: {schema: AIProductDiscoveryOutputSchema},
-  prompt: `You are an expert AI product curator at CodeCafe Lab, a company that blends innovation, AI, and creativity in software solutions.
+  prompt: `You are an expert AI product curator at Cubic Dot, a company that blends innovation, AI, and creativity in software solutions.
 
-You will select a set of AI products from CodeCafe Lab to showcase to the user, based on their interests and current trends in the AI industry.  You will also explain your reasoning for selecting these products.
+You will select a set of AI products from Cubic Dot to showcase to the user, based on their interests and current trends in the AI industry.  You will also explain your reasoning for selecting these products.
 
-Consider the following AI products from CodeCafe Lab:
+Consider the following AI products from Cubic Dot:
 
 AI-Powered Chatbot: An intelligent chatbot that uses natural language processing to understand and respond to customer inquiries.
 AI-Driven Analytics Platform: A platform that uses machine learning to analyze data and provide insights to businesses.

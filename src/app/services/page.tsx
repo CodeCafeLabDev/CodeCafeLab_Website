@@ -6,7 +6,7 @@ import { CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Our Services',
-  description: 'Explore the range of software development, AI/ML, mobile app, DevOps, and UI/UX design services offered by CodeCafe Lab.',
+  description: 'Explore the range of software development, AI/ML, mobile app, DevOps, and UI/UX design services offered by Cubic Dot.',
 };
 
 export default function ServicesPage() {

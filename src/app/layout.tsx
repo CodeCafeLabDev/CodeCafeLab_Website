@@ -17,24 +17,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'CodeCafe Lab - Brewed Software with AI Precision',
-    template: '%s | CodeCafe Lab',
+    default: 'Cubic Dot - Brewed Software with AI Precision',
+    template: '%s | Cubic Dot',
   },
-  description: 'CodeCafe Lab: Blending innovation, AI, and creativity in software solutions. We build custom software, mobile apps, and AI/ML integrations.',
-  keywords: ['software development', 'ai solutions', 'mobile apps', 'tech consultancy', 'codecafe lab'],
+  description: 'Cubic Dot: Blending innovation, AI, and creativity in software solutions. We build custom software, mobile apps, and AI/ML integrations.',
+  keywords: ['software development', 'ai solutions', 'mobile apps', 'tech consultancy', 'Cubic Dot'],
   openGraph: {
-    title: 'CodeCafe Lab',
+    title: 'Cubic Dot',
     description: 'Brewed Software with AI Precision.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.codecafe.lab', // Replace with actual URL
-    siteName: 'CodeCafe Lab',
+    siteName: 'Cubic Dot',
     // images: [ // Add a default OG image
     //   {
     //     url: 'https://www.codecafe.lab/og-image.png',
     //     width: 1200,
     //     height: 630,
-    //     alt: 'CodeCafe Lab Logo',
+    //     alt: 'Cubic Dot Logo',
     //   },
     // ],
   },

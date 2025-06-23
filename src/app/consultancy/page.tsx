@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Tech Consultancy',
-  description: 'Expert tech consultancy services from CodeCafe Lab for fintech, healthtech, logistics, and startups. Schedule a consultation today.',
+  description: 'Expert tech consultancy services from Cubic Dot for fintech, healthtech, logistics, and startups. Schedule a consultation today.',
 };
 
 const industriesServed = [

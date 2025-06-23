@@ -6,7 +6,7 @@ import { Users, Target, Lightbulb, Heart, CalendarDays } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Our Company',
-  description: 'Learn about CodeCafe Lab\'s story, values, team, mission, vision, and our journey of growth.',
+  description: 'Learn about Cubic Dot\'s story, values, team, mission, vision, and our journey of growth.',
 };
 
 const teamMembers = [
@@ -25,7 +25,7 @@ export default function CompanyPage() {
   return (
     <div className="space-y-16">
       <section className="text-center">
-        <h1 className="text-4xl font-bold mb-4">About CodeCafe Lab</h1>
+        <h1 className="text-4xl font-bold mb-4">About Cubic Dot</h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           We are a passionate team of innovators, developers, and strategists dedicated to crafting exceptional software solutions that drive progress and create value.
         </p>
@@ -40,7 +40,7 @@ export default function CompanyPage() {
           <CardContent className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-muted-foreground mb-4">
-                Founded on the principle that great software is brewed with a blend of technical expertise, creative thinking, and a deep understanding of user needs, CodeCafe Lab embarked on its journey to make a mark in the tech world.
+                Founded on the principle of delivering precise and innovative digital solutions, Cubic Dot embarked on its journey to make a mark in the tech world.
               </p>
               <p className="text-muted-foreground">
                 From humble beginnings, we've grown into a dynamic company, tackling complex challenges and delivering impactful solutions for clients across various industries. Our passion for AI and innovation continues to fuel our growth and inspire our work.
@@ -48,7 +48,7 @@ export default function CompanyPage() {
             </div>
             <Image 
               src="https://placehold.co/600x400/ffc011/000000.png?text=Our+Journey" 
-              alt="CodeCafe Lab team working" 
+              alt="Cubic Dot team working" 
               width={600} 
               height={400} 
               className="rounded-lg object-cover"

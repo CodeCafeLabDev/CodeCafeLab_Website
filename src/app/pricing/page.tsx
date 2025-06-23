@@ -15,7 +15,7 @@ import Link from 'next/link';
 // If you need dynamic metadata here, consider moving this to a layout or using the generateMetadata function in a parent server component.
 // export const metadata: Metadata = {
 //   title: 'Our Pricing Models',
-//   description: 'Explore CodeCafe Lab\'s flexible pricing options, including hourly rates, project-based costs, and profit-sharing models for various tech services.',
+//   description: 'Explore Cubic Dot\'s flexible pricing options, including hourly rates, project-based costs, and profit-sharing models for various tech services.',
 // };
 
 const hourlyPricingData = [

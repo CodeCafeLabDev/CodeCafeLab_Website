@@ -8,10 +8,10 @@ import {
   DownloadCloud, Newspaper, CalendarClock, HelpCircle, BookOpenText, MailPlus, BarChartHorizontalBig, PlayCircle, Container, Share, Database, Settings2, Network, ServerCog, Shield, AppWindow, CodeXml, Cable, FileJson, TerminalSquare, Github, Linkedin, Twitter, Facebook, Send, Instagram, Film
 } from 'lucide-react';
 
-export const SITE_NAME = "CodeCafe Lab";
+export const SITE_NAME = "Cubic Dot";
 
 export const NAV_LINKS: NavItem[] = [
-  { href: "/", label: "Home", icon: HomeIcon },
+  { href: "/", label: "Home", icon: Home },
   { href: "/ai", label: "AI", icon: Bot },
   { href: "/services", label: "Services", icon: Layers },
   { href: "/products", label: "Products", icon: Smartphone },
@@ -22,7 +22,7 @@ export const NAV_LINKS: NavItem[] = [
 export const COMPANY_SUB_LINKS: NavItem[] = [
   {
     href: "/company",
-    label: "About CodeCafe Lab",
+    label: "About Cubic Dot",
     icon: Info,
     description: "Company mission, vision, values, founding story, leadership team, and journey."
   },
@@ -59,7 +59,7 @@ export const COMPANY_SUB_LINKS: NavItem[] = [
   {
     href: "#",
     label: "Why Choose Us",
-    icon: Award,
+    icon: Star,
     description: "Key differentiators, client success stories, testimonials, and USPs."
   },
   {
@@ -611,8 +611,8 @@ export const PRODUCTS_DATA: Product[] = [
 ];
 
 export const TIMELINE_EVENTS: TimelineEvent[] = [
-  { year: "2018", title: "Founded", description: "CodeCafe Lab was founded with a vision to blend coffee, code, and creativity." },
-  { year: "2019", title: "First AI Product Launch", description: "Launched our pioneering AI-driven analytics platform." },
+  { year: "2018", title: "Founded", description: "Cubic Dot was founded with a vision to blend coffee, code, and creativity." },
+  { year: "2019", title: "First AI Product Launch", description: "Launched our pioneering AI-driven analytics platform under the name Cubic Dot." },
   { year: "2020", title: "Team Expansion", description: "Grew our team to 20+ passionate innovators and developers." },
   { year: "2021", title: "New Office", description: "Moved into a new, state-of-the-art office space designed for collaboration." },
   { year: "2023", title: "Awarded Top AI Solutions Provider", description: "Recognized for excellence in AI and software development." },
@@ -669,15 +669,15 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     id: "4",
-    title: "CodeCafe Lab's Journey in AI",
+    title: "Cubic Dot's Journey in AI",
     slug: "codecafe-lab-ai-journey",
     date: "2024-06-28",
     excerpt: "A look back at our milestones and innovations in the AI space.",
     category: "company-news",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://placehold.co/600x400.png", 
     dataAiHint: "company journey",
-    content: "Full blog post content about CodeCafe Lab's journey in AI...",
-    tags: ["CodeCafe Lab", "AI Innovation", "Company Story"],
+    content: "Full blog post content about Cubic Dot's journey in AI...",
+    tags: ["Cubic Dot", "AI Innovation", "Company Story"],
   },
   {
     id: "5",
@@ -694,9 +694,9 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   {
     id: "6",
     title: "Case Study: AI-Powered Logistics Optimization",
-    slug: "case-study-ai-logistics",
+    slug: "case-study-ai-logistics-codecafe-lab",
     date: "2024-08-05",
-    excerpt: "How CodeCafe Lab helped a major logistics firm reduce costs and improve efficiency using AI.",
+    excerpt: "How Cubic Dot helped a major logistics firm reduce costs and improve efficiency using AI.",
     category: "case-studies",
     imageUrl: "https://placehold.co/600x400.png",
     dataAiHint: "logistics ai",
@@ -736,7 +736,7 @@ export const FEATURED_VIDEOS_DATA: FeaturedVideo[] = [
   },
   {
     id: 'video3',
-    title: 'A Day at CodeCafe Lab',
+    title: 'A Day at Cubic Dot',
     thumbnailUrl: '/video3s.png',
     videoSrc: '/video3.mp4',
     dataAiHint: 'office team working',
@@ -788,18 +788,18 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     id: "1",
     name: "Sarah Miller",
     role: "CEO, Innovatech Solutions",
-    company: "Innovatech Solutions",
-    quote: "CodeCafe Lab transformed our vision into a reality with their exceptional AI expertise. Their team is not only skilled but also incredibly responsive and collaborative.",
+    company: "Innovatech Solutions", 
+    quote: "Cubic Dot transformed our vision into a reality with their exceptional AI expertise. Their team is not only skilled but also incredibly responsive and collaborative.",
     avatarUrl: "https://placehold.co/60x60.png",
     dataAiHint: "woman portrait",
     rating: 5,
   },
   {
     id: "2",
-    name: "John Davis",
+    name: "John Davis", 
     role: "CTO, QuantumLeap AI",
     company: "QuantumLeap AI",
-    quote: "Working with CodeCafe Lab was a game-changer. Their deep understanding of complex algorithms and commitment to quality is unmatched.",
+    quote: "Working with Cubic Dot was a game-changer. Their deep understanding of complex algorithms and commitment to quality is unmatched.",
     avatarUrl: "https://placehold.co/60x60.png",
     dataAiHint: "man portrait",
     rating: 5,
@@ -809,27 +809,27 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: "Emily Carter",
     role: "Product Manager, NextGen Apps",
     company: "NextGen Apps",
-    quote: "The mobile app developed by CodeCafe Lab exceeded all our expectations in terms of design, functionality, and performance. Highly recommended!",
+    quote: "The mobile app developed by Cubic Dot exceeded all our expectations in terms of design, functionality, and performance. Highly recommended!",
     avatarUrl: "https://placehold.co/60x60.png",
     dataAiHint: "woman avatar",
     rating: 4,
   },
   {
     id: "4",
-    name: "Michael Brown",
+    name: "Michael Brown", 
     role: "Founder, SparkUp Ventures",
     company: "SparkUp Ventures",
-    quote: "As a startup, we needed a tech partner who was agile and innovative. CodeCafe Lab delivered on all fronts, helping us launch successfully.",
+    quote: "As a startup, we needed a tech partner who was agile and innovative. Cubic Dot delivered on all fronts, helping us launch successfully.",
     avatarUrl: "https://placehold.co/60x60.png",
     dataAiHint: "man avatar",
     rating: 5,
   },
   {
     id: "5",
-    name: "Jessica Williams",
+    name: "Jessica Williams", 
     role: "Head of Digital, ConnectFlow",
-    company: "ConnectFlow Dynamics",
-    quote: "Their team's dedication and problem-solving skills are top-notch. CodeCafe Lab is our go-to for any complex software development needs.",
+    company: "ConnectFlow Dynamics", 
+    quote: "Their team's dedication and problem-solving skills are top-notch. Cubic Dot is our go-to for any complex software development needs.",
     avatarUrl: "https://placehold.co/60x60.png",
     dataAiHint: "woman professional",
     rating: 4,

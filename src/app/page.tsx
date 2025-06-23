@@ -50,7 +50,7 @@ export default function HomePage() {
               <AnimatedHeroText texts={heroTexts} />
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              CodeCafe Lab blends innovation, AI, and creativity to deliver cutting-edge software solutions tailored for your success.
+              Cubic Dot blends innovation, AI, and creativity to deliver cutting-edge software solutions tailored for your success.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button
@@ -165,12 +165,12 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* CodeCafe Lab Tech Stack Section */}
+        {/* Cubic Dot Tech Stack Section */}
         <section className="ai-glow-bg pt-8 pb-16 md:pt-12 md:pb-24 rounded-xl">
           <div className="relative z-10 container mx-auto"> 
               <div className="text-center mb-12">
                   <Brain className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h2 className="text-3xl font-bold">CodeCafe Lab Tech Stack</h2>
+                  <h2 className="text-3xl font-bold">Cubic Dot Tech Stack</h2>
                   <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
                       We leverage a modern and versatile technology stack to build robust, scalable, and innovative solutions.
                   </p>
