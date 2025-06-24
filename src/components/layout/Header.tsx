@@ -53,7 +53,7 @@ export default function Header() {
     };
   }, []);
 
-  const logoSrc = "/codecafe_logo_dark.png"; 
+  const logoSrc = "/cubicdot_logo_dark.png"; 
   const logoAlt = `${SITE_NAME} Logo (Dark Mode)`;
 
   if (!isMounted) {

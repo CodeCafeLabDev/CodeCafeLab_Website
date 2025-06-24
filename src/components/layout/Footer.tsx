@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="space-y-4 lg:col-span-1">
             <Link href="/" className="inline-block mb-2" aria-label={`${SITE_NAME} Home`}>
               <Image
-                src="/codecafe_logo_dark.png"
+                src="/cubicdot_logo_dark.png"
                 alt={`${SITE_NAME} Logo`}
                 width={150}
                 height={38}
