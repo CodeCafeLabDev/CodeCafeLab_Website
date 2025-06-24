@@ -23,7 +23,7 @@
     --muted: 39 40% 90%;
     --muted-foreground: 39 30% 40%;
 
-    --accent: 120 80% 45%; /* Tech Green: #14D414 */
+    --accent: 85 65% 58%; /* Lime Green: #A7D94C */
     --accent-foreground: 0 0% 100%; /* White */
 
     --destructive: 0 84.2% 60.2%;
@@ -61,7 +61,7 @@
     --popover: 39 30% 12%;
     --popover-foreground: 39 50% 90%;
 
-    --primary: 46 100% 59%; /* Café Gold: #FFC72C */
+    --primary: 46 90% 59%; /* Café Gold: #FFC72C */
     --primary-foreground: 39 30% 10%; /* Dark Brown */
 
     --secondary: 39 30% 18%;
@@ -70,7 +70,7 @@
     --muted: 39 30% 18%;
     --muted-foreground: 39 50% 60%;
 
-    --accent: 120 70% 50%; /* Brighter Tech Green: #29E129 */
+    --accent: 90 50% 37%; /* olive Green: #7A8C2E */
     --accent-foreground: 0 0% 100%; /* White */
 
     --destructive: 0 62.8% 30.6%;
