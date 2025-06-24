@@ -50,11 +50,10 @@ export default function HomePage() {
               <AnimatedHeroText texts={heroTexts} />
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Cubic Dot blends modular, scalable, and intelligent software systems tailored for tomorrow’s digital needs
-              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Innovating the Future – One Smart Cube at a Time.
-                </p>
-            </p>
+              Cubic Dot blends modular, scalable, and intelligent software systems tailored for tomorrow’s digital needs.</p>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
+              Innovating the Future – One Smart Cube at a Time.</p>
+
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button
                 size="lg"
