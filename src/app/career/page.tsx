@@ -38,7 +38,7 @@ export default function CareerPage() {
       {/* Company Culture Section */}
       <section className="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h2 className="text-3xl font-bold mb-6">Our Culture: Brewed for Success</h2>
+          <h2 className="text-3xl font-bold mb-6">Our Culture: Perculated for Success</h2>
           <div className="space-y-4 text-muted-foreground">
             <p className="flex items-start gap-3"><Sparkles className="h-6 w-5 text-primary flex-shrink-0 mt-1" /> <strong>Innovation First:</strong> We encourage curiosity and provide a platform for brilliant ideas to flourish.</p>
             <p className="flex items-start gap-3"><Users className="h-6 w-5 text-primary flex-shrink-0 mt-1" /> <strong>Collaborative Spirit:</strong> Our strength lies in our diverse team working together towards common goals.</p>

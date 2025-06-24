@@ -239,7 +239,7 @@ export const RESOURCES_SUB_LINKS: NavItem[] = [
 
 export const SERVICES_DATA: ServiceMenuItem[] = [
   {
-    title: "Ideation & Design",
+    title: "Idea & Designing",
     slug: "ideation-design",
     icon: Lightbulb,
     subServices: [

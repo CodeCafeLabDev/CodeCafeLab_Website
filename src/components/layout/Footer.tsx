@@ -110,7 +110,7 @@ export default function Footer() {
 
         <div className="border-t border-border/40 pt-8 text-center">
           <p className="text-xs text-muted-foreground">
-            &copy; {currentYear} {SITE_NAME}. All rights reserved. Brewed with passion.
+            &copy; {currentYear} {SITE_NAME}. All rights reserved. Perculated with passion.
           </p>
         </div>
       </div>
