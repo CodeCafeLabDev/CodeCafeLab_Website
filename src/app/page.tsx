@@ -78,7 +78,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Our Expertise</h2>
             <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-            From startups to enterprises, Cubic Dot offers tailored digital solutions using cutting-edge technologies and agile processes to accelerate growth and innovation.
+            Cubic Dot provides bespoke digital solutions for businesses of all sizes, leveraging advanced technology and flexible methodologies to fuel expansion and innovation.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
