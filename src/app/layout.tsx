@@ -17,14 +17,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Cubic Dot - Perculated Software with AI Precision',
+    default: 'Cubic Dot - Percolated Software with AI Precision',
     template: '%s | Cubic Dot',
   },
   description: 'Cubic Dot: Blending innovation, AI, and creativity in software solutions. We build custom software, mobile apps, and AI/ML integrations.',
   keywords: ['software development', 'ai solutions', 'mobile apps', 'tech consultancy', 'Cubic Dot'],
   openGraph: {
     title: 'Cubic Dot',
-    description: 'Perculated Software with AI Precision.',
+    description: 'Percolated Software with AI Precision.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.codecafe.lab', // Replace with actual URL

@@ -2,7 +2,7 @@
 
 ## Core Features:
 
-- Animated Hero Text: Hero section with animated typing effect displaying "Perculated Software with AI Precision".
+- Animated Hero Text: Hero section with animated typing effect displaying "Percolated Software with AI Precision".
 - Animated Product Cards: Interactive product cards with animations and stack details. Offers "View Demo" CTA.
 - AI Product Discovery: A tool to showcase in-house AI innovations and GPT-based products. The LLM powering this tool decides which product to highlight and how the products relate to the users prompts or other signals
 - Company Timeline: A timeline of company growth and milestones. Displayed to enhance the 'Company' section.
