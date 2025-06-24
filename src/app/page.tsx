@@ -41,7 +41,7 @@ export default function HomePage() {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover opacity-40"
-            src="/codecafelab_herobgvideo.mp4"
+            src="/cubicdot_herobgvideo.mp4"
           >
             Your browser does not support the video tag.
           </video>
@@ -317,7 +317,7 @@ export default function HomePage() {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover opacity-20"
-            src="/coffee_with_codecafelab.mp4"
+            src="/cubicdot_footer.mp4"
           >
             Your browser does not support the video tag.
           </video>
